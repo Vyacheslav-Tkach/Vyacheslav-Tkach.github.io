@@ -16,7 +16,7 @@ h1, h2 {
     margin: 0 auto;
 }
 .row {
-    height: 460px;
+    max-height: 1100px;
     padding: 0 15px;
 }
 header {
@@ -96,7 +96,7 @@ a.heder-btn_down {
 }
 .wrap > p{
     line-height: 2.2em;
-    margin: 0 30px;  
+    margin: 0 auto;  
 }
 .row-blue {
     height: 720px;
@@ -467,9 +467,6 @@ footer {
         padding: 10px 0 10px 0;
         font-size: 18px;
     } 
-    .row {
-        height: 400px;
-    }
     .row-blue {
         height: 920px;
     }
@@ -503,9 +500,6 @@ footer {
     }
     header {
         padding: 20px 0 20px 0;
-    }
-    .wrap h2 {
-        padding: 20px 0 0;
     }
     .photo-porfolio {
         width: 90vw;

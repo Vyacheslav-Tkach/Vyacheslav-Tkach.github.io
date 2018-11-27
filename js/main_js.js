@@ -8,7 +8,8 @@ $('.btn-up').fadeOut();
 } 
 }); 
 $('.btn-up').click(function(){ 
-$('body,html').animate({scrollTop:0},500); 
+$('body,html').animate({scrollTop:0},600,);
+    return false;
 }); 
 }); 
 
@@ -18,7 +19,7 @@ event.preventDefault()
 var el = $('.block-scroll'); 
 $('body,html').animate({ 
 scrollTop: $(el).offset().top 
-}, 1000); 
+}, 1200); 
 }); 
 }); 
 

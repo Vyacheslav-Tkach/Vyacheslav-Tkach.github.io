@@ -470,6 +470,7 @@ footer {
     } 
     .row-blue {
         height: 920px;
+        padding-bottom: 170px;
     }
     .flexbox-item__icon {
         margin: 25px auto 25px;
@@ -493,8 +494,20 @@ footer {
     }
 }
 @media (max-width: 576px){ 
+    body {
+        font-size: 10px;        
+    }
     .wrap {
         max-width: 540px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    h1, h2 {
+        font-size: 20px;
+    }
+    header p {
+        font-size: 10px;
     }
     a.heder-btn_down {
         display: none;

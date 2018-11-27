@@ -493,10 +493,7 @@ footer {
         border-radius: 10px;
     }
 }
-@media (max-width: 576px){ 
-    body {
-        font-size: 10px;        
-    }
+@media (max-width: 576px){
     .wrap {
         max-width: 540px;
     }
@@ -506,9 +503,9 @@ footer {
     h1, h2 {
         font-size: 20px;
     }
-    header p {
-        font-size: 10px;
-    }
+    .flexbox-item h3 {
+        font-size: 14px;}
+    
     a.heder-btn_down {
         display: none;
     }

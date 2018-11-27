@@ -306,11 +306,13 @@ footer {
         font-size: 18px;
     } 
 }
+/*
 @media (max-height: 360px){
     header {
         display: block!important;
     }
 }
+*/
 @media (max-width: 1200px){
     .wrap {
         max-width: 960px;

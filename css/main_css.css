@@ -88,14 +88,14 @@ a.heder-btn_down {
     50% {opacity: 1;}
     100% {transform:translate(0,10px); opacity: 0;}
 }
-.wrap h2{
+.wrap h2 {
     padding: 113px 0 0;   
     margin: 0 0 45px;
     letter-spacing: 0px;
     color: #17528e;
     font-weight: normal;
 }
-.wrap > p{
+.wrap > p {
     line-height: 2.2em;
     margin: 0 auto;  
 }
@@ -104,16 +104,16 @@ a.heder-btn_down {
     background-color: #f7fafe;
     padding: 0 15px;
 }
-.row-blue h3  {
+.row-blue h3 {
     color: #17528e;
 }
-.row-blue h2  {
+.row-blue h2 {
     padding-top: 83px;
 }
 .flexbox {
     display: flex;
 }
-.flexbox-wrap{
+.flexbox-wrap {
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -136,7 +136,9 @@ a.heder-btn_down {
 .flexbox-item__icon:hover {
     background-color: #17528e;
 }
-.flexbox-item__icon-app::after, .flexbox-item__icon-design::after, .flexbox-item__icon-development::after  {
+.flexbox-item__icon-app::after,
+.flexbox-item__icon-design::after,
+.flexbox-item__icon-development::after {
     content: '';
     position: absolute;
     background-image: url(../img/sprite.png);
@@ -144,7 +146,7 @@ a.heder-btn_down {
     right: 0px;
     margin: 0 auto;   
 }
-.flexbox-item__icon-app::after{ 
+.flexbox-item__icon-app::after { 
     width: 45px;
     height: 67px;
     background-position: -5px -3px;
@@ -162,13 +164,13 @@ a.heder-btn_down {
     background-position: -161px 0px;
     top: calc(50% - 36px);
 }
-.flexbox-item__icon-app:hover::after{
+.flexbox-item__icon-app:hover::after {
      background-position: -5px -77px;
 }
-.flexbox-item__icon-design:hover::after{
+.flexbox-item__icon-design:hover::after {
      background-position: -72px -75px;
 }
-.flexbox-item__icon-development:hover::after{
+.flexbox-item__icon-development:hover::after {
      background-position: -161px -74px;
 }
 .row-image-porfolio h2 {
@@ -338,7 +340,7 @@ footer {
         width: 11.5vw;
         height: 11.5vw;
     }
-    .flexbox-item__icon-app::after{ 
+    .flexbox-item__icon-app::after { 
         background-size: 19vw;
         width: 4.5vw;
         height: 6vw;
@@ -359,13 +361,13 @@ footer {
         background-position: calc(50% - 6.8vw) 0px;
         top: calc(50% - 3vw);
     }
-    .flexbox-item__icon-app:hover::after{
+    .flexbox-item__icon-app:hover::after {
         background-position: -1px calc(50% - 2.9vw);
     }
-    .flexbox-item__icon-design:hover::after{
+    .flexbox-item__icon-design:hover::after {
         background-position: calc(50% - -0.5vw) calc(50% - 2.7vw);
     }
-    .flexbox-item__icon-development:hover::after{
+    .flexbox-item__icon-development:hover::after {
         background-position: calc(50% - 6.8vw) calc(50% - 3vw);
     }
     .footer-flexbox {
@@ -388,7 +390,7 @@ footer {
         font-size: 16px;
         margin-bottom: 16px;
     }
-    .flexbox-item__icon-app::after{ 
+    .flexbox-item__icon-app::after { 
         background-size: 175px;
         width: 37px;
         height: 60px;
@@ -409,13 +411,13 @@ footer {
         background-position: -124px 0px;
         top: calc(50% - 27px);
     }
-   .flexbox-item__icon-app:hover::after{
+   .flexbox-item__icon-app:hover::after {
        background-position: -4px calc(50% - 30px);
     }
-    .flexbox-item__icon-design:hover::after{
+    .flexbox-item__icon-design:hover::after {
         background-position: 121px calc(50% - 26px);
     }
-    .flexbox-item__icon-development:hover::after{
+    .flexbox-item__icon-development:hover::after {
         background-position: 51px calc(50% - 26.5px);
     }   
 }
@@ -423,18 +425,18 @@ footer {
     .wrap {
         max-width: 720px;
     }
-    .header-wrap{
+    .header-wrap {
         max-width: 720px;
         margin: 0 auto;   
     }
     .flexbox-colum {
         flex-direction: column;
     }
-    .row-image-porfolio{
+    .row-image-porfolio {
         margin: 0 0 100px;
         padding: 0;
     }
-    .header-wrap{
+    .header-wrap {
         position: inherit;
         top: inherit;
         left: inherit;
@@ -462,7 +464,7 @@ footer {
         font-size: 12px;
         margin-bottom: 30px;
     }
-    a.heder-btn {
+    a.heder-btn, a.footer-btn {
         display: block;
         width: 132px;
         padding: 10px 0 10px 0;
@@ -498,14 +500,17 @@ footer {
         max-width: 540px;
     }
     header h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     h1, h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .flexbox-item h3 {
-        font-size: 14px;}
-    
+        font-size: 14px;
+    }
+        header p {
+        line-height: 1.8em;
+    }
     a.heder-btn_down {
         display: none;
     }
@@ -521,5 +526,8 @@ footer {
         height: 62vw;
         border-radius: 10px;
     }
+    a.heder-btn, a.footer-btn {
+        font-size: 16px;
+    } 
 }
 

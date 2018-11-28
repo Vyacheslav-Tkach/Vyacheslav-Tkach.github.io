@@ -306,13 +306,11 @@ footer {
         font-size: 18px;
     } 
 }
-/*
-@media (max-height: 360px){
+@media (max-height: 460px){
     header {
         display: block!important;
     }
 }
-*/
 @media (max-width: 1200px){
     .wrap {
         max-width: 960px;
@@ -324,7 +322,9 @@ footer {
     }
     header h1 {
         max-width: 650px;
-        font-size: 35px;
+    }
+    h1, h2 {
+        font-size: 34px;
     }
     header p {
         max-width: 650px;
@@ -380,7 +380,14 @@ footer {
     }
     .footer-flexbox {
         padding: 0 15px;
+        display: flex;
+        flex-direction: column;
     }
+    .footer-flexbox > h2 {
+        padding-top: 10px;
+        margin: 0 0 30px 0;
+    }
+    
 }
 @media (max-width: 900px){
     body {

@@ -306,11 +306,6 @@ footer {
         font-size: 18px;
     } 
 }
-@media (max-height: 460px){
-    header {
-        display: block!important;
-    }
-}
 @media (max-width: 1200px){
     .wrap {
         max-width: 960px;
@@ -533,12 +528,6 @@ footer {
     }
     a.heder-btn_down {
         display: none;
-    }
-    header {
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        align-items: center;
     }
     .photo-porfolio {
         width: 90vw;

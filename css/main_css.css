@@ -6,6 +6,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: 16px;
     text-align: center; 
+    overflow-x:hidden;
 }
 h1, h2 {
     font-size: 50px;
@@ -51,7 +52,6 @@ header p {
     line-height: 2.2em;
     letter-spacing: 1px;
 }
-
 a.heder-btn, a.footer-btn {
     display: block;
     width: 200px;
@@ -100,9 +100,11 @@ a.heder-btn_down {
     margin: 0 auto;  
 }
 .row-blue {
-    height: 720px;
+    max-height: 720px;
+    height: 100%;
     background-color: #f7fafe;
     padding: 0 15px;
+    padding-bottom: 120px;
 }
 .row-blue h3 {
     color: #17528e;
@@ -382,7 +384,6 @@ footer {
         padding-top: 10px;
         margin: 0 0 30px 0;
     }
-    
 }
 @media (max-width: 900px){
     body {
@@ -435,6 +436,9 @@ footer {
     .wrap {
         max-width: 720px;
     }
+    .row-blue {
+        max-height: 1280px;
+    }
     .header-wrap {
         max-width: 720px;
         margin: 0 auto; 
@@ -478,10 +482,6 @@ footer {
         padding: 10px 0 10px 0;
         font-size: 18px;
     } 
-    .row-blue {
-        height: 920px;
-        padding-bottom: 170px;
-    }
     .flexbox-item__icon {
         margin: 25px auto 25px;
     }
@@ -552,5 +552,8 @@ footer {
     header {
         display: block;
         height: 100%;
+    }
+    .photo-porfolio {
+        padding: 0; 
     }
 }

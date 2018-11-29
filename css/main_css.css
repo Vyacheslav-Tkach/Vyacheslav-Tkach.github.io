@@ -529,6 +529,12 @@ footer {
     a.heder-btn_down {
         display: none;
     }
+    header {
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
     .photo-porfolio {
         width: 90vw;
         height: 62vw;
@@ -542,4 +548,9 @@ footer {
         font-size: 16px;
     } 
 }
-
+@media (max-width: 360px) , (max-height: 360px){
+    header {
+        display: block;
+        height: 100%;
+    }
+}

@@ -6,6 +6,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: 16px;
     text-align: center; 
+    overflow-x: hidden;
 }
 h1, h2 {
     font-size: 50px;
@@ -403,7 +404,7 @@ footer {
     .flexbox-item__icon-app::after { 
         background-size: 175px;
         width: 37px;
-        height: 60px;
+        height: 53px;
         background-position: -4px 0px;
         top: calc(50% - 27px);
     }
@@ -547,8 +548,11 @@ footer {
     a.heder-btn, a.footer-btn {
         font-size: 16px;
     } 
+    .footer-flexbox > h2 {
+    max-width: 300px;
+    }
 }
-@media (max-width: 319px) , (max-height: 319px){
+@media (max-width: 319px) , (max-height: 380px){
     header {
         display: block;
         height: 100%;
